@@ -1,0 +1,83 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1695701579
+default_env.tres::Environment::4044478852031466711::1695697043::0::1::::<><>::
+icon.png::CompressedTexture2D::5728826140802175393::1695693836::1695694799::1::::<><>::
+::res://addons/::1695693836
+::res://addons/AsepriteWizard/::1695694509
+plugin.cfg::TextFile::-1::1695693836::0::1::::<><>::
+plugin.gd::GDScript::-1::1695694573::0::1::::<>EditorPlugin<>::
+::res://addons/AsepriteWizard/animated_sprite/::1695694509
+import_plugin.gd::GDScript::-1::1695694574::0::1::::<>EditorImportPlugin<>::
+inspector_plugin.gd::GDScript::-1::1695694574::0::1::::<>EditorInspectorPlugin<>::
+sprite_frames_creator.gd::GDScript::-1::1695694574::0::1::::<>RefCounted<>::
+::res://addons/AsepriteWizard/animated_sprite/docks/::1695694509
+animated_sprite_inspector_dock.gd::GDScript::-1::1695694574::0::1::::<>PanelContainer<>::
+animated_sprite_inspector_dock.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/animated_sprite_inspector_dock.gd
+as_wizard_dock_container.gd::GDScript::-1::1695694574::0::1::::<>TabContainer<>::
+as_wizard_dock_container.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/as_wizard_window.tscn<>res://addons/AsepriteWizard/animated_sprite/docks/as_wizard_dock_container.gd<>res://addons/AsepriteWizard/animated_sprite/docks/sprite_frames_import_history.tscn
+as_wizard_window.gd::GDScript::-1::1695694574::0::1::::<>PanelContainer<>::
+as_wizard_window.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/as_wizard_window.gd
+sprite_frames_import_history.gd::GDScript::-1::1695694574::0::1::::<>PanelContainer<>::
+sprite_frames_import_history.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/sprite_frames_import_history.gd
+::res://addons/AsepriteWizard/animated_sprite/docks/wizard_nodes/::1695694509
+import_date.gd::GDScript::-1::1695694574::0::1::::<>Label<>::
+import_date.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/wizard_nodes/import_date.gd
+list_actions.gd::GDScript::-1::1695694574::0::1::::<>HBoxContainer<>::
+list_actions.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/wizard_nodes/list_actions.gd
+output_path.tscn::PackedScene::-1::1695694574::0::1::::<><>::
+source_path.gd::GDScript::-1::1695694574::0::1::::<>LineEdit<>::
+source_path.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animated_sprite/docks/wizard_nodes/source_path.gd
+::res://addons/AsepriteWizard/animation_player/::1695694509
+animation_creator.gd::GDScript::-1::1695694574::0::1::::<>RefCounted<>::
+inspector_plugin.gd::GDScript::-1::1695694574::0::1::::<>EditorInspectorPlugin<>::
+sprite_animation_creator.gd::GDScript::-1::1695694574::0::1::::<><>::
+texture_rect_animation_creator.gd::GDScript::-1::1695694574::0::1::::<><>::
+::res://addons/AsepriteWizard/animation_player/docks/::1695694509
+animation_player_inspector_dock.gd::GDScript::-1::1695694574::0::1::::<>PanelContainer<>::
+animation_player_inspector_dock.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/animation_player/docks/animation_player_inspector_dock.gd
+::res://addons/AsepriteWizard/aseprite/::1695694509
+aseprite.gd::GDScript::-1::1695694574::0::1::::<>RefCounted<>::
+::res://addons/AsepriteWizard/config/::1695694509
+2d_pixel_preset.cfg::TextFile::-1::1695693836::0::1::::<><>::
+config.gd::GDScript::-1::1695694574::0::1::::<>RefCounted<>::
+config_dialog.gd::GDScript::-1::1695694574::0::1::::<>PopupPanel<>::
+config_dialog.tscn::PackedScene::-1::1695694574::0::1::::<><>::res://addons/AsepriteWizard/config/config_dialog.gd
+result_codes.gd::GDScript::-1::1695694574::0::1::::<>RefCounted<>::
+wizard_config.gd::GDScript::-1::1695694574::0::1::::<>RefCounted<>::
+::res://addons/AsepriteWizard/export/::1695694509
+metadata_export_plugin.gd::GDScript::-1::1695694574::0::1::::<>EditorExportPlugin<>::
+::res://AspiriteAssets/::1695699820
+::res://AspiriteAssets/exports/::1695699882
+oven.png::CompressedTexture2D::8757783984510951053::1695693836::1695699882::1::::<><>::
+platform.png::CompressedTexture2D::7077089502332625852::1695693836::1695699882::1::::<><>::
+screen.png::CompressedTexture2D::4292242170241895081::1695693836::1695699882::1::::<><>::
+_01.png::CompressedTexture2D::8934344521847829967::1695699479::1695699882::1::::<><>::
+::res://AspiriteAssets/import/::1695699820
+::res://png/::1695697073
+cook-sprite.png::CompressedTexture2D::6453595224884656819::1695693836::1695694799::1::::<><>::
+::res://png/enemies/::1695697073
+::res://png/food/::1695697062
+::res://png/level/::1695697044
+Fridge.png::CompressedTexture2D::2308186149382328912::1695693836::1695697043::1::::<><>::
+Layer 1.png::CompressedTexture2D::1747798824160095311::1695693836::1695697043::1::::<><>::
+Layer 2.png::CompressedTexture2D::3798940698417125580::1695693836::1695697043::1::::<><>::
+Layer 4.png::CompressedTexture2D::486223916456296603::1695693836::1695697043::1::::<><>::
+Layer 5.png::CompressedTexture2D::2615927899242994481::1695693836::1695697043::1::::<><>::
+oven.png::CompressedTexture2D::8723727132279174540::1695693836::1695697043::1::::<><>::
+platform.png::CompressedTexture2D::5101943327859191370::1695693836::1695697043::1::::<><>::
+::res://png/script/::1695694800
+Layer 1.png::CompressedTexture2D::9207965581208538832::1695693836::1695694800::1::::<><>::
+Layer 2.png::CompressedTexture2D::8078190665149767003::1695693836::1695694800::1::::<><>::
+Layer 3.png::CompressedTexture2D::282246955954199918::1695693836::1695694800::1::::<><>::
+Layer 4.png::CompressedTexture2D::3691834968783638985::1695693836::1695694800::1::::<><>::
+Layer 5.png::CompressedTexture2D::793392009109044406::1695693836::1695694800::1::::<><>::
+Layer 6.png::CompressedTexture2D::9184031186815660998::1695693836::1695694800::1::::<><>::
+Layer 7.png::CompressedTexture2D::8317238981630989892::1695693836::1695694800::1::::<><>::
+Layer 8.png::CompressedTexture2D::3836084098706120176::1695693836::1695694800::1::::<><>::
+Layer 9.png::CompressedTexture2D::7698117972037755861::1695693836::1695694800::1::::<><>::
+::res://scenes/::1695697043
+player.tscn::PackedScene::-1::1695694573::0::1::::<><>::res://scripts/player.gd<>res://png/cook-sprite.png
+Scene1.tscn::PackedScene::2020041460080263913::1695697043::0::1::::<><>::uid://dwj3rnc1ghbui::::res://png/level/oven.png<>uid://75dqu45y67n5::::res://png/level/Fridge.png<>res://scenes/player.tscn<>uid://y5v8x6ftaip8::::res://png/level/Layer 1.png<>uid://brydmdi2t2n2w::::res://AspiriteAssets/platform.png<>uid://bueh87abexswa::::res://png/level/Layer 2.png<>uid://g6sbiu8eya1h::::res://png/level/Layer 4.png<>uid://bdjf7ks6x66g8::::res://png/level/Layer 5.png
+::res://scripts/::1695694509
+Actor.gd::GDScript::-1::1695694573::0::1::::Actor<>CharacterBody2D<>::
+player.gd::GDScript::-1::1695694573::0::1::::<>Actor<>::

@@ -1,4 +1,4 @@
-tool
+@tool
 extends EditorImportPlugin
 
 const result_codes = preload("../config/result_codes.gd")
@@ -7,35 +7,35 @@ var config
 var _sf_creator = preload("sprite_frames_creator.gd").new()
 var file_system: EditorFileSystem
 
-func get_importer_name():
+func _get_importer_name():
 	return "aseprite_wizard.plugin"
 
 
-func get_visible_name():
+func _get_visible_name():
 	return "Aseprite SpriteFrames Importer"
 
 
-func get_recognized_extensions():
+func _get_recognized_extensions():
 	return ["aseprite", "ase"]
 
 
-func get_save_extension():
+func _get_save_extension():
 	return "res"
 
 
-func get_resource_type():
+func _get_resource_type():
 	return "SpriteFrames"
 
 
-func get_preset_count():
+func _get_preset_count():
 	return 1
 
 
-func get_preset_name(i):
+func _get_preset_name(i):
 	return "Default"
 
 
-func get_import_options(i):
+func _get_import_options(i):
 	return [
 		{"name": "split_layers",           "default_value": false},
 		{"name": "exclude_layers_pattern", "default_value": ''},
@@ -50,11 +50,11 @@ func get_import_options(i):
 	]
 
 
-func get_option_visibility(option, options):
+func _get_option_visibility(option, options):
 	return true
 
 
-func get_import_order():
+func _get_import_order():
 	return 1
 
 
@@ -70,9 +70,9 @@ func import(source_file, save_path, options, platform_variants, gen_files):
 	var absolute_source_file = ProjectSettings.globalize_path(source_file)
 	var absolute_save_path = ProjectSettings.globalize_path(save_path)
 
-	var source_path = source_file.substr(0, source_file.find_last('/'))
+	var source_path = source_file.substr(0, source_file.rfind('/'))
 	var source_basename = source_file.substr(source_path.length()+1, -1)
-	source_basename = source_basename.substr(0, source_basename.find_last('.'))
+	source_basename = source_basename.substr(0, source_basename.rfind('.'))
 
 	_sf_creator.init(config, file_system)
 
@@ -90,7 +90,7 @@ func import(source_file, save_path, options, platform_variants, gen_files):
 	var resources = _sf_creator.create_resources(absolute_source_file, aseprite_opts)
 
 	if resources is GDScriptFunctionState:
-		resources = yield(resources, "completed")
+		resources = await resources.completed
 
 	if not resources.is_ok:
 		printerr("ERROR - Could not import aseprite file: %s" % result_codes.get_error_message(resources.code))

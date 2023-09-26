@@ -6,14 +6,14 @@ extends Actor
 # var a = 2
 # var b = "text"
 const FLOOR_DETECT_DISTANCE = 20.0 
-onready var platform_detector = $PlatformDetector
-onready var sprite = $Sprite
-onready var leftMirror = $Sprite/leftMirror
-onready var rightMirror = $Sprite/rightMirror
+@onready var platform_detector = $PlatformDetector
+@onready var sprite = $Sprite2D
+@onready var leftMirror = $Sprite2D/leftMirror
+@onready var rightMirror = $Sprite2D/rightMirror
 
 
-export var  SPEED_X = 150.0
-export var JUMP_STRENGTH = 300.0
+@export var  SPEED_X = 150.0
+@export var JUMP_STRENGTH = 300.0
 var screensize_x = 1280
 var mirror_pos_offset = screensize_x / 4;
 var jump_direction = 0;
